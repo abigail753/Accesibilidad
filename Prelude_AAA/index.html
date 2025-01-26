@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -52,10 +52,10 @@
 
         <div class="nav2">
             <div>
-                <img src="static/img/logo0.png" alt="Logo">
+                <img src="static/img/logo0.png" alt="Prelude" alt>
                 <h1 class="hidden">Prelude</h1>
 
-                <nav>
+                <nav aria-label="Main website navigation">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -102,7 +102,7 @@
                         goal
                         is
                         to create an actionable plan for your SEO needs, within 48 hours of meeting you.</p>
-                    <a href="#">Learn More</a>
+                    <a href="#">Learn More of Our Services</a>
                 </div>
             </section>
         </div>
@@ -194,7 +194,7 @@
                 <ul>
                     <li>
                         <article>
-                            <img src="static/img/icon1.png">
+                            <img alt= "icon1" src="static/img/icon1.png">
                             <h3>Content Stratetgy</h3>
                             <p>Our digital marketing group helps businesses generate more website traffic, and manage
                                 their
@@ -204,7 +204,7 @@
 
                     <li>
                         <article>
-                            <img src="static/img/icon2.png">
+                            <img alt= "icon2" src="static/img/icon2.png">
                             <h3>Keyword Research</h3>
                             <p>Our digital marketing group helps businesses generate more website traffic, and manage
                                 their
@@ -214,7 +214,7 @@
 
                     <li>
                         <article>
-                            <img src="static/img/icon3.png">
+                            <img alt= "icon3" src="static/img/icon3.png">
                             <h3>User Experience</h3>
                             <p>Our digital marketing group helps businesses generate more website traffic, and manage
                                 their
@@ -295,9 +295,9 @@
 
                 <div class="check">
                     <p>Personal</p>
-                    <label>
-                        <input type="checkbox">
-                        <span></span>
+                    <label for="personal">
+                        <input type="checkbox" id="personal" aria-label="Choose the plan that's right for your business" title="Choose your plan" >
+                        <span class="hidden">Personal Plan</span>
                     </label>
                     <p>Enterprise</p>
                 </div>
@@ -365,7 +365,7 @@
                             <h3>WordPress 5.3 will change how it blocks indexing</h3>
                             <div>
                                 <img src="https://ninzio.com/prelude/wp-content/uploads/2019/12/testimonial3.jpg"
-                                    alt="Image">
+                                    alt="Photo Stella">
                                 <p>STELLA SMITH</p>
                                 <time>27 August 2019</time>
                             </div>
@@ -378,7 +378,7 @@
                             <h3>Study finds 'Like' buttons are the most harmful social media feature</h3>
                             <div>
                                 <img src="https://ninzio.com/prelude/wp-content/uploads/2019/12/testimonial1.jpg"
-                                    alt="Image">
+                                    alt="Photo Monica">
                                 <p>MONICA SMITH</p>
                                 <time>23 August 2019</time>
                             </div>
@@ -391,7 +391,7 @@
                             <h3>YouTube will show abbreviated subscriber counts</h3>
                             <div>
                                 <img src="https://ninzio.com/prelude/wp-content/uploads/2019/12/testimonial2.jpg"
-                                    alt="Image">
+                                    alt="Photo Ernest">
                                 <p>ERNEST SMITH</p>
                                 <time>07 August 2019</time>
                             </div>
@@ -436,9 +436,15 @@
                 <section class="proposal">
                     <h3>Free proposal</h3>
                     <form>
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Your Email">
-                        <textarea type="text" placeholder="Comment"></textarea>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Your Name" id="name" aria-label="Please enter your name">
+
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Your Email" id="email" aria-label="Please enter your email">
+
+                        <label for="comment">Comment</label>
+                        <textarea placeholder="Comment" id="comment" aria-label="Please enter your comment here" title="Comment"></textarea>
+                        
                         <input type="submit" value="Submit">
                     </form>
                 </section>
@@ -456,23 +462,7 @@
                     <p>Our nature is effortless technology.</p>
 
                     <section>
-                        <h3 class="hidden">RRSS</h3>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f base-color"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter base-color"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram base-color"></i></a></li>
-                        </ul>
-                    </section>
-                </div>
-
-                <div class="col2">
-                    <section>
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portofolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
+                           <li><a href="#">Blog</a></li>
                         </ul>
                     </section>
 
