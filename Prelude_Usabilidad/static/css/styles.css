@@ -48,7 +48,7 @@ time {
 
 header {
     height: 100vh;
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/header.webp");
     background-size: cover;
     background-position: center;
 
@@ -1239,7 +1239,7 @@ header {
 }
 
 .main8 {
-    background-image: url("../img/fondo8.jpg");
+    background-image: url("../img/fondo8.webp");
     background-position: center;
     background-size: cover;
 
