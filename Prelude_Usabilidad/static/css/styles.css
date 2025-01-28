@@ -117,7 +117,6 @@ header {
         }
     }
 
-
     .nav2 {
         border-bottom: 1px solid var(--white-transparent);
         padding: 14px 0;
@@ -263,17 +262,17 @@ header {
 
                 @media screen and (width <=1400px) {
                     width: 75%;
-                    font-size: 3.3rem;
+                    font-size: 3.5rem;
                 }
 
                 @media screen and (width <=1300px) {
                     width: 85%;
-                    font-size: 2.7rem;
+                    font-size: 2.9rem;
                 }
 
                 @media screen and (width <=1200px) {
                     width: 95%;
-                    font-size: 2.1rem;
+                    font-size: 2.3rem;
                 }
 
             }
