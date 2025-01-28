@@ -117,8 +117,6 @@ header {
         }
     }
 
-
-
     .nav2 {
         border-bottom: 1px solid var(--white-transparent);
         padding: 14px 0;
@@ -258,7 +256,7 @@ header {
 
             h2 {
                 width: 65%;
-                font-size: 4.1rem;
+                font-size: 3rem;
                 line-height: 1.35;
                 color: var(--white-color);
 
