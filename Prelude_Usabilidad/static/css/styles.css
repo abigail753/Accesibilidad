@@ -148,7 +148,6 @@ header {
                 width: 80%;
             }
 
-
             nav ul {
                 display: flex;
                 list-style: none;
@@ -447,7 +446,7 @@ header {
 }
 
 .main2 {
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/img2.webp");
     background-size: cover;
     background-position: center;
 
@@ -1159,7 +1158,7 @@ header {
                         width: 100%;
                     }
 
-                    background-image: url("../img/img7.jpg");
+                    background-image: url("../img/img7.webp");
                     background-position: center;
                     background-size: cover;
 
