@@ -985,7 +985,6 @@ header {
                 height: 34px;
                 background-color: var(--blue-color);
                 border-radius: 50%;
-                color:transparent;
 
                 input {
                     &:checked+span {
@@ -1155,6 +1154,7 @@ header {
                 padding: 100px 40px 40px;
 
                 &:first-child {
+                    
                     @media screen and (width <=900px) {
                         width: 100%;
                     }
